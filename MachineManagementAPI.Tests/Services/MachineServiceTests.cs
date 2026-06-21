@@ -41,6 +41,18 @@ namespace MachineManagementAPI.Tests.Services
 
             Assert.NotNull(result);
         }
+
+
+        [Fact]
+        public async Task GetAllMachines_ShouldReturnException_WhenMachineIsNotThere()
+        {
+            IEnumerable<Machine>? machines = null;
+
+             _mockRepo.Setup(x => x.GetAllMachineAsync())
+                     .ReturnsAsync(machines);
+            await Assert.ThrowsAsync<ArgumentNullException>(()=>
+            _service.GetAllMachineAsync());          
+        }
     }
     
 }

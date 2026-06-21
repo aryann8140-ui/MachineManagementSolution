@@ -157,3 +157,4 @@ C:\Users\Aryan\MachineManagementSolution\MachineManagementAPI.Tests\obj\Debug\ne
 C:\Users\Aryan\MachineManagementSolution\MachineManagementAPI.Tests\obj\Debug\net8.0\MachineManagementAPI.Tests.pdb
 C:\Users\Aryan\MachineManagementSolution\MachineManagementAPI.Tests\obj\Debug\net8.0\MachineManagementAPI.Tests.genruntimeconfig.cache
 C:\Users\Aryan\MachineManagementSolution\MachineManagementAPI.Tests\obj\Debug\net8.0\ref\MachineManagementAPI.Tests.dll
+C:\Users\Aryan\MachineManagementSolution\MachineManagementAPI.Tests\obj\Debug\net8.0\MachineManagementAPI.Tests.sourcelink.json
